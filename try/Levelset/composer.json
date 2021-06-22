@@ -1,0 +1,21 @@
+{
+    "name": "splx/composer-example-project",
+    "description": "Example project",
+    "type": "library",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "SplX-2019",
+        "email": "splaandrey@gmail.com"
+      }
+    ],
+    "require": {
+      "php": "^7.2"
+    },
+    "autoload": {
+      "psr-4": {
+        "Splx\\Parser\\": "src/"
+      }
+    }
+  }
